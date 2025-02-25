@@ -1,0 +1,54 @@
+/* sidebar.component.css */
+nav {
+  background-color: white; /* Fondo blanco para el sidebar */
+  border-radius: 12px; /* Bordes redondeados */
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin: 16px; /* Separación de los bordes */
+  height: calc(50vh - 32px); /* Altura completa menos el margen */
+  width: 250px; /* Ancho del sidebar */
+  position: fixed; /* Fija el sidebar */
+  right: 0; /* Lo coloca a la derecha */
+  top: 0; /* Lo coloca en la parte superior */
+  color: darkblue;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-bottom: 8px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 8px;
+  border-radius: 8px; /* Bordes redondeados para los enlaces */
+  transition: background-color 0.3s ease;
+  color: #003366; /* Color azul oscuro */
+}
+
+nav ul li a:hover {
+  background-color: #e0e0e0; /* Color de fondo al hacer hover */
+}
+
+nav ul li a.active {
+  background-color: #3f51b5; /* Color de fondo para el enlace activo */
+  color: white; /* Texto blanco para el enlace activo */
+}
+
+.logo-container {
+  position: absolute; /* Posiciona el logo de manera absoluta */
+  top: 16px; /* Distancia desde la parte superior */
+  right: 16px; /* Distancia desde la derecha */
+}
+
+.logo {
+  width: 10vh; /* Ancho del logo */
+  height: auto; /* Altura automática para mantener la proporción */
+}

@@ -1,0 +1,12 @@
+/* app.component.css */
+.layout {
+  display: flex;
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.content {
+  flex: 1; /* Ocupa el espacio restante */
+  overflow-y: auto; /* Permite hacer scroll */
+  padding: 20px;
+  margin-right: 282px; /* Ancho del sidebar + margen */
+}

@@ -1,0 +1,24 @@
+/* inicio.component.css */
+.image-container {
+  position: relative; /* Contenedor relativo para posicionar el enlace */
+  display: inline-block; /* Ajusta el tamaño al contenido */
+  width: 100%; /* Ocupa el ancho completo */
+}
+
+.image-link {
+  position: absolute; /* Posiciona el enlace de manera absoluta */
+  bottom: 2%; /* Distancia desde la parte inferior */
+  left: 50%; /* Centra horizontalmente */
+  transform: translateX(-50%); /* Ajusta el centrado */
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+  color: white; /* Color del texto */
+  padding: 2% 5%; /* Espaciado interno */
+  border-radius: 4px; /* Bordes redondeados */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  font-size: 150%; /* Tamaño de la fuente */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.image-link:hover {
+  background-color: rgba(0, 0, 0, 0.9); /* Cambia el fondo al hacer hover */
+}

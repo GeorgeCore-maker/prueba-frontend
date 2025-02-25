@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+html, body {
+  height: 100%; /* Asegura que html y body ocupen toda la altura */
+  margin: 0; /* Elimina márgenes por defecto */
+  padding: 0; /* Elimina rellenos por defecto */
+  scroll-behavior: smooth; /* Hace que el scroll sea suave */
+}
+
+body {
+  background-color: #d8d5fe; /* Color gris claro */
+  font-family: Roboto, "Helvetica Neue", sans-serif; /* Fuente de Angular Material */
+}
+
+.component-container {
+  background-color: transparent;
+  border-radius: 12px;
+  margin-right: 5px;
+  min-height: 100%; /* Altura mínima para cada componente */
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
